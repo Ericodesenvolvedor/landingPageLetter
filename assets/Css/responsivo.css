@@ -1,0 +1,32 @@
+@media screen and (max-width: 950px) {
+    header, main {
+        flex-direction: column;
+    }
+
+    header #logo {
+        position: absolute;
+        top: 15px;
+    }
+
+    header nav {
+        margin-top: 20px;
+    }
+
+    header nav ul {
+        text-align: center;
+    }
+
+    main {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    main section h2 {
+        font-size: 40px;
+    }
+
+    figure {
+        display: none;
+    }
+}
